@@ -1,4 +1,14 @@
 /*Header Styles*/
 /*Content Styles*/
+body {
+	background-image: url('../images/supermarket.jpg');
+	background-size: cover;
+	position: fixed;
+}
+
+.list {
+	background-color: white;
+	opacity: 0.7;
+}
 /*Footer Styles*/
 /*Responsive Styles*/
