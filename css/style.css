@@ -2,13 +2,18 @@
 /*Content Styles*/
 body {
 	background-image: url('../images/supermarket.jpg');
-	background-size: cover;
-	position: fixed;
 }
 
 .list {
+	margin: auto;
+	position: relative;
+	top: 60px;
+	height: auto;
+	min-height: 500px;
+	width: 575px;
 	background-color: white;
-	opacity: 0.7;
+	opacity: 0.8;
+	border-radius: 10px;
 }
 /*Footer Styles*/
 /*Responsive Styles*/
