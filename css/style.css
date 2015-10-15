@@ -6,14 +6,20 @@ body {
 
 .list {
 	margin: auto;
+	padding: 5px;
 	position: relative;
 	top: 60px;
 	height: auto;
 	min-height: 500px;
-	width: 575px;
+	width: 500px;
 	background-color: white;
 	opacity: 0.8;
 	border-radius: 10px;
 }
+
+ul {
+	list-style-type: none;
+}
+
 /*Footer Styles*/
 /*Responsive Styles*/
