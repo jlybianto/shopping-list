@@ -17,8 +17,8 @@
 	position: relative;
 	top: 60px;
 	height: auto;
-	min-height: 500px;
-	width: 500px;
+	min-height: 400px;
+	width: 575px;
 	background-color: white;
 	opacity: 0.8;
 	border-radius: 10px;
@@ -27,21 +27,17 @@
 .list h1 {
 	position: relative;
 	font-size: 45px;
-	margin-top: 5px;
-	margin-left: 90px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 170px;
 }
 
 .cart {
 	position: absolute;
-	left: 20px;
+	left: 100px;
 	top: 10px;
 	width: 60px;
 	height: 60px;
-
-}
-
-ul {
-	list-style-type: none;
 }
 
 #newItem {
@@ -49,23 +45,26 @@ ul {
 	font-size: 20px;
 	font-style: italic;
 	text-align: left;
-	margin: 8px 0 5px 70px;
+	margin: 8px 0 5px 83px;
 	border: solid 1px black;
 }
 
 #addItem {
 	font-size: 24px;
 	border: none;
+	background-color: transparent;
 }
 
 #removeItem {
 	font-size: 24px;
 	border: none;
+	background-color: transparent;
 }
 
 .list ul {
 	text-align: left;
-	padding: 10px 0 10px 57px;
+	list-style-type: none;
+	padding: 10px 0 10px 30px;
 }
 
 .list li {
@@ -76,6 +75,9 @@ ul {
 
 .list .delete {
 	border: none;
+	float: right;
+	margin-right: 30px;
+	background-color: transparent;
 }
 
 .checked-off {
@@ -83,7 +85,8 @@ ul {
 }
 
 .instructions {
-	padding: 10px 35px 0 84px;
+	text-align: center;
+	padding: 10px;
 }
 
 /*Footer Styles*/
