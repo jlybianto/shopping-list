@@ -3,38 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div id="background">
-		<div class="list">
-			<h1>Shopping List</h1>
-			<img class="cart" src="images/cart.svg" alt="">
-			<input type="text" maxlength="24" id="newItem" placeholder=" Add item here...">
-			<input type="submit" id="addItem" value="+">
-			<input type="submit" id="removeItem" value="-">
-		<div class="instructions">
-			<p>Add, remove, reorder items</p>
-		</div>
-			<ul id="items" class="items">
-				<li>
-					<input class="checkbox" type="checkbox">
-					<span class="item">Pasta</span>
-					<button class="delete">X</button>
-				</li>
-				<li>
-					<input class="checkbox" type="checkbox">
-					<span class="item">Chicken</span>
-					<button class="delete">X</button>
-				</li>
-				<li>
-					<input class="checkbox" type="checkbox">
-					<span class="item">Olive Oil</span>
-					<button class="delete">X</button>
-				</li>
-			</ul>
-		</div>
+	<div class="list">
+		<h1>Shopping List</h1>
+		<img class="cart" src="images/cart.svg" alt="">
+		<input type="text" maxlength="24" id="newItem" placeholder=" Add item here...">
+		<input type="submit" id="addItem" value="+">
+		<input type="submit" id="removeItem" value="-">
+	<div class="instructions">
+		<p>Add the items, check off as you go and delete when you're done.</p>
+	</div>
+		<ul id="items" class="items">
+			<li>
+				<input class="checkbox" type="checkbox">
+				<span class="item">Pasta</span>
+				<button class="delete">x</button>
+			</li>
+			<li>
+				<input class="checkbox" type="checkbox">
+				<span class="item">Chicken</span>
+				<button class="delete">x</button>
+			</li>
+			<li>
+				<input class="checkbox" type="checkbox">
+				<span class="item">Olive Oil</span>
+				<button class="delete">x</button>
+			</li>
+		</ul>
+	</div>
 	</div>	
 </body>
 </html>
