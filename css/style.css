@@ -55,7 +55,7 @@
 	background-color: transparent;
 }
 
-#removeItem {
+#resetButton {
 	font-size: 24px;
 	border: none;
 	background-color: transparent;
@@ -78,6 +78,10 @@
 	float: right;
 	margin-right: 30px;
 	background-color: transparent;
+}
+
+span.item {
+	margin-left: 15px;
 }
 
 .checked-off {
