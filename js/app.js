@@ -1,7 +1,9 @@
+/* Capitalize every first character of an input */
 function toTitleCase(str) {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
+/* Adding an item */
 function addListItem() {
     var write = $('#newItem').val();
     var list = $('#itemList');
@@ -16,20 +18,24 @@ function addListItem() {
     $(newItem).val('');
 }
 
+/* Removing a single item */
 function removeItem() {
     $(this).parent().remove();
 }
 
+/* Clearing the whole item list */
 $(document).on('click', '#resetButton',
     function() {
         $('#itemList').empty();
     }
 );
 
+/* Checking items off makes strikethrough */
 function tickItem() {
     $(this).parent().toggleClass('checked-off');
 }
 
+/* Implementing functions */
 $(function() {
     var add = $('#addItem');
     var newItem = $('#newItem');
